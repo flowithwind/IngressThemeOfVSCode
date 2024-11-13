@@ -1,0 +1,31 @@
+{
+  "name": "ingress-prime-for-enlightened",
+  "displayName": "Ingress Prime for Enlightened",
+  "icon" :"icon.png",
+  "version": "0.0.1331",
+	"publisher" : "flowithwind",
+  "description": "Immerse yourself in the enigmatic world of Ingress with this \"Ingress Prime for Enlightened\" theme pack for VS Code, inspired by the Enlightened faction’s iconic green tones. This theme set includes both a Dark and Light mode, meticulously designed to enhance readability and reduce eye strain during prolonged coding sessions. With a palette that reflects the legendary aesthetic of Ingress, you’ll enjoy a unique, game-inspired coding experience that’s both visually appealing and functionally optimized. Choose the Dark or Light variant to suit your environment and stay enlightened!",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+	"keywords" : [
+	"ingress", "Ingress Prime", "Enlightened", "Resistance","Niantic"
+],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ingress Prime Themes for Enlightened (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Enlightened-color-theme.json"
+      },
+      {
+        "label": "Ingress Prime Themes for Enlightened (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/Enlightened-color-theme-light.json"
+      }
+    ]
+  }
+}
